@@ -6,11 +6,12 @@ import { ProjectCard } from "@/components/project-card";
 import { PROJECTS } from "@/lib/data/projects";
 import { Link } from "@/lib/i18n/navigation";
 
-const FEATURED_COUNT = 6;
+const FEATURED_COUNT = 8;
 
 export const PortfolioSection = async () => {
   const t = await getTranslations("Portfolio");
   const featured = PROJECTS.slice(0, FEATURED_COUNT);
+  const remaining = PROJECTS.length - FEATURED_COUNT;
 
   return (
     <section id="portfolio" className="py-24 px-4">
@@ -26,11 +27,11 @@ export const PortfolioSection = async () => {
           ))}
         </div>
 
-        {PROJECTS.length > FEATURED_COUNT && (
+        {remaining > 0 && (
           <div className="text-center mt-12">
             <Button variant="outline" size="lg" asChild className="gap-2">
               <Link href="/projects">
-                {t("viewAll")}
+                {t("viewMore", { count: remaining })}
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>

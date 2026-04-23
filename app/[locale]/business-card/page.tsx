@@ -203,7 +203,7 @@ export default function BusinessCardPage() {
               <div className="w-5 h-5 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0">
                 <MailIcon className="w-2.5 h-2.5 text-blue-400" />
               </div>
-              <span className="text-[7.5px] text-neutral-200 break-all leading-tight">
+              <span className="text-[7px] text-neutral-200 whitespace-nowrap leading-tight">
                 hexaigonsoftwaresolutions@gmail.com
               </span>
             </div>

@@ -143,6 +143,7 @@
   "Portfolio": {
     "title": "Our Work",
     "viewAll": "View All Projects",
+    "viewMore": "View {count} more",
     "visit": "Visit Site",
     "allProjectsTitle": "All Projects"
   },

@@ -143,6 +143,7 @@
   "Portfolio": {
     "title": "Η Δουλειά μας",
     "viewAll": "Δείτε Όλα τα Έργα",
+    "viewMore": "Δείτε {count} ακόμη",
     "visit": "Επίσκεψη",
     "allProjectsTitle": "Όλα τα Έργα"
   },

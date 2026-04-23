@@ -57,6 +57,22 @@ export const PROJECTS: Project[] = [
     url: "https://4yournails.vercel.app/el",
   },
   {
+    slug: "wheel-way",
+    title: "Wheel Way",
+    description: "Website for a driving school",
+    desktopImage: "/projects/wheel-way-desktop.png",
+    mobileImage: "/projects/wheel-way-mobile.png",
+    url: "https://wheel-way.vercel.app/",
+  },
+  {
+    slug: "viliotis-ilias-accountant",
+    title: "Viliotis Ilias Accountant",
+    description: "Website for an accounting and tax services firm",
+    desktopImage: "/projects/viliotis-ilias-accountant-desktop.png",
+    mobileImage: "/projects/viliotis-ilias-accountant-mobile.png",
+    url: "https://viliotis-ilias-accountant.vercel.app/",
+  },
+  {
     slug: "iatriki-apokatastasi",
     title: "Iatriki Apokatastasi",
     description: "Website for medical rehabilitation services",
